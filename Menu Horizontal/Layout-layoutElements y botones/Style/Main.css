@@ -1,0 +1,72 @@
+/*  Observaciones que siempre se me olvidan
+height = ALTO
+width = ANCHOR
+*/
+
+body{
+    margin: 0;
+} 
+
+header {
+    float: left;
+    height:200px;
+    width: 100%;
+
+    background-color: #666;
+    /* Texto */
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* MENU */
+nav {
+    background: #ccc;
+    height: 30px; 
+    width: 100%;
+    float: left;
+}
+
+/* CONTENIDO */
+article {
+    float: left;
+    height: 500px;
+    width: 100%;
+    background-color: #a31818;
+    
+}
+
+footer {
+    background-color: yellow;
+    float: left;
+    width: 100%;
+
+    /* Texto */
+    text-align: center;
+    color: white;
+}
+
+/* Modificacion de los links */
+.menu-ul{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+/* Separacion de los links */
+.menu-ul > li {
+    text-align: center;
+    float: left; /* esto hace la separacion de columna a filas */
+    margin-left: 10px;
+    width: 150px; /* Esto los separa */
+}
+
+/*creacion de forma de botons */
+.menu-ul > li > a {
+    display: block;
+    background-color: #ececec;
+    padding: 5px;
+    text-decoration: none;
+    color: #1669bd;
+}
+

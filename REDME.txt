@@ -1,0 +1,2 @@
+Esto son 2 formas de hacer la estructura de una pagina 
+con css y html5 son formas basicas 

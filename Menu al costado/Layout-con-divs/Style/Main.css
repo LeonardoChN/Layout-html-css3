@@ -1,0 +1,41 @@
+/* Borrar el Borde de la pagina */
+body {
+    margin: 0;
+}
+
+/* Color de los divs*/
+.Main-Header{
+    background-color: red;
+    /*height:150px;
+    width: 100%;*/
+    padding: 1px;
+}
+
+.Side-Bar{
+    background-color: green;
+    height: 500px;
+    width: 10%;
+    float:left;
+}
+
+.Main-Content{
+    background-color: blue;
+    height: 500px;
+    width: 90%;
+    float:left;
+
+}
+
+.Main-Footer{
+    background-color: yellow;
+    height: 120px;
+    width: 100%;
+    float: left;
+}
+
+/* Despues de los ":" Se puede agregar un evento*/
+/*----*/
+/* Cambiaremos el color del side-bar al pasar el mouse*/
+.Side-Bar:hover{
+    background-color: #15f1cd
+}

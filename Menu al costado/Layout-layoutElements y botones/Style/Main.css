@@ -1,0 +1,73 @@
+/*  Observaciones que siempre se me olvidan
+width = ANCHOR
+height = ALTO
+*/
+
+body {
+    border: 0;
+    margin: 0;
+}
+header {
+    float: left;
+    width: 100%;
+    height: 150px;
+    /* Sin espacios arriba pero el height no se puede modificar */
+    background-color: #666;
+    /* Texto */
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* MENU */
+nav {
+    background: #ccc;
+    width: 5%;
+    height: 300px; 
+    float: left;
+    border: none;
+}
+
+/* CONTENIDO */
+article {
+    float: left;
+    width: 95%;
+    background-color: #a31818;
+    height: 300px;
+}
+
+footer {
+    background-color: yellow;
+    float: left;
+    width: 100%;
+    /* Texto */
+    text-align: center;
+    color: white;
+}
+
+/* Modificacion de los links */
+/* eliminando el espacio del lado izquierdo que queda para los botones */
+.menu {
+    padding: 5px;
+    display: block;
+    list-style-type: none;
+    display:block;
+}
+
+/* Separacion de los links */
+.menu > li {
+    text-align: center;
+    height: 70px;
+    width: 150px; /* Esto los separa */
+}
+
+/*creacion de forma de botons */
+.menu > li > a {
+    float: left;
+    display: left;
+    background-color: #ececec;
+    padding: 10px;
+    
+    text-decoration: none;
+    color: #000000;
+}
